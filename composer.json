@@ -1,0 +1,26 @@
+{
+    "name": "remcodex/command",
+    "description": "Remote Code Execution Commands",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmard",
+            "email": "Ahmard06@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.12.76"
+    },
+    "autoload": {
+        "psr-4": {
+            "Remcodex\\Command\\": "src/"
+        }
+    },
+    "scripts": {
+        "analyse": "phpstan"
+    }
+}
